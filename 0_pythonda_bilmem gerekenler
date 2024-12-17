@@ -1,0 +1,97 @@
+String Methods
+capitalize(): İlk karakteri büyük harfe dönüştürür.
+casefold(): Stringi küçük harfe dönüştürür.
+center(): Ortalanmış bir string döndürür.
+count(): Belirtilen değerin string içinde kaç kez geçtiğini döndürür.
+encode(): Stringin kodlanmış bir sürümünü döndürür.
+endswith(): Stringin belirtilen değerle bitip bitmediğini kontrol eder, doğruysa True döndürür.
+expandtabs(): Stringdeki sekme (tab) boyutunu ayarlar.
+find(): String içinde belirtilen değeri arar ve bulunduğu konumun indeksini döndürür.
+format(): String içinde belirtilen değerleri biçimlendirir.
+format_map(): String içinde belirtilen değerleri biçimlendirir.
+index(): String içinde belirtilen değeri arar ve bulunduğu konumun indeksini döndürür (bulunmazsa hata verir).
+isalnum(): String içindeki tüm karakterlerin alfanumerik olup olmadığını kontrol eder, doğruysa True döndürür.
+isalpha(): String içindeki tüm karakterlerin harf olup olmadığıni kontrol eder, doğruysa True döndürür.
+isascii(): String içindeki tüm karakterlerin ASCII olup olmadığını kontrol eder, doğruysa True döndürür.
+isdecimal(): String içindeki tüm karakterlerin ondalık olup olmadığını kontrol eder, doğruysa True döndürür.
+isdigit(): String içindeki tüm karakterlerin rakam olup olmadığını kontrol eder, doğruysa True döndürür.
+isidentifier(): Stringin bir tanımlayıcı olup olmadığını kontrol eder, doğruysa True döndürür.
+islower(): Stringdeki tüm karakterlerin küçük harf olup olmadığını kontrol eder, doğruysa True döndürür.
+isnumeric(): String içindeki tüm karakterlerin sayısal olup olmadığını kontrol eder, doğruysa True döndürür.
+isprintable(): Stringdeki tüm karakterlerin yazdırılabilir olup olmadığını kontrol eder, doğruysa True döndürür.
+isspace(): Stringdeki tüm karakterlerin boşluk olup olmadığını kontrol eder, doğruysa True döndürür.
+istitle(): Stringin başlık kurallarına uyup uymadığını kontrol eder, doğruysa True döndürür.
+isupper(): Stringdeki tüm karakterlerin büyük harf olup olmadığını kontrol eder, doğruysa True döndürür.
+join(): Yinelemeli (iterable) öğeleri stringe dönüştürür.
+ljust(): Stringin soluna dayalı bir versiyonunu döndürür.
+lower(): Stringi küçük harfe dönüştürür.
+lstrip(): Stringin solundaki boşlukları kaldıran bir versiyonunu döndürür.
+maketrans(): Çeviri işlemlerinde kullanılmak üzere bir çeviri tablosu döndürür.
+partition(): Stringi üç parçaya ayırarak bir demet (tuple) döndürür.
+replace(): Belirtilen değerin başka bir değerle değiştirildiği bir string döndürür.
+rfind(): Stringde belirtilen değeri arar ve son bulunduğu konumun indeksini döndürür.
+rindex(): Stringde belirtilen değeri arar ve son bulunduğu konumun indeksini döndürür (bulunmazsa hata verir).
+rjust(): Stringin sağa dayalı bir versiyonunu döndürür.
+rpartition(): Stringi üç parçaya ayırarak bir demet (tuple) döndürür.
+rsplit(): Stringi belirtilen ayırıcıya göre böler ve bir liste döndürür.
+rstrip(): Stringin sağındaki boşluklari kaldiran bir versiyonunu döndürür.
+sep = : print("uzaya", "git", sep = "**"), sep parametresi ile argümanlar arasına ne konulacağı belirtilebilir. Burada, sep = "**" kullanılmış, bu da "uzaya" ve "git" arasında ** eklenmesi gerektiğini ifade eder.
+split(): Stringi belirtilen ayiriciya göre böler ve bir liste döndürür.
+splitlines(): Stringi satir sonlarinda böler ve bir liste döndürür.
+startswith(): Stringin belirtilen değerle başlayıp başlamadığını kontrol eder, doğruysa True döndürür.
+strip(): Stringin başindaki ve sonundaki boşlukları kaldıran bir versiyonunu döndürür.
+swapcase(): Stringdeki küçük harfleri büyük harfe ve büyük harfleri küçük harfe dönüştürür.
+title(): Stringdeki her kelimenin ilk harfini büyük harfe dönüştürür.
+translate(): Çevrilmiş bir string döndürür.
+upper(): Stringi büyük harfe dönüştürür.
+zfill(): Stringin başina belirtilen sayida 0 ekleyerek doldurur.
+
+
+List Methods da kullanilan komutlar
+append():	Listenin sonuna bir öğe ekler
+clear():	Tüm öğeleri listeden kaldirir
+copy():	Listenin bir kopyasini döndürür
+count():	Belirtilen değere sahip öğelerin sayisini döndürür
+extend():	Bir listeyi (veya herhangi bir yinelenebilir nesneyi) mevcut listenin sonuna ekler
+index():	Belirtilen değere sahip ilk öğenin dizinini döndürür
+insert():	Belirtilen konuma bir öğe ekler
+pop():	Belirtilen konumdaki öğeyi kaldirir
+remove():	Belirtilen değere sahip ilk öğeyi kaldirir
+reverse(): Listenin sirasini tersine çevirir
+sort():	Listeyi siralar
+
+
+clear(): Sözlükten tüm öğeleri kaldirir.
+copy(): Sözlüğün bir kopyasini döndürür.
+fromkeys(): Belirtilen anahtarlar ve değerle bir sözlük döndürür.
+get(): Belirtilen anahtarin değerini döndürür.
+items(): Her anahtar-değer çifti için bir demet içeren bir liste döndürür.
+keys(): Sözlüğün anahtarlarini içeren bir liste döndürür.
+pop(): Belirtilen anahtarla öğeyi kaldirir.
+popitem(): En son eklenen anahtar-değer çiftini kaldirir.
+setdefault(): Belirtilen anahtarin değerini döndürür. Anahtar yoksa: belirtilen değerle birlikte anahtari ekler.
+update(): Belirtilen anahtar-değer çiftleriyle sözlüğü günceller.
+values(): Sözlükteki tüm değerlerin bir listesini döndürür.
+
+
+
+add(): Bir öğe sete ekler.
+clear(): Setteki tüm öğeleri kaldirir.
+copy(): Setin bir kopyasini döndürür.
+difference(): İki veya daha fazla set arasindaki farki içeren bir set döndürür.
+difference_update(): Bu setteki ve diğer belirtilen setteki ortak öğeleri çikarir.
+discard(): Belirtilen öğeyi setten kaldirir (öğe yoksa hata vermez).
+intersection(): İki veya daha fazla setin kesişimini içeren bir set döndürür.
+intersection_update(): Diğer belirtilen setlerde bulunmayan öğeleri bu setten çikarir.
+isdisjoint(): İki setin kesişimi olup olmadiğini döndürür (yani, ortak öğe var mi).
+issubset(): Bu setin başka bir set içinde olup olmadiğini döndürür.
+<: Bu setteki tüm öğelerin belirtilen diğer sette bulunup bulunmadiğini döndürür.
+issuperset(): Bu setin başka bir seti içerip içermediğini döndürür.
+>: Belirtilen diğer setteki tüm öğelerin bu sette bulunup bulunmadiğini döndürür.
+pop(): Setten bir öğe çikarir.
+remove(): Belirtilen öğeyi setten kaldirir (öğe yoksa hata verir).
+symmetric_difference(): İki set arasindaki simetrik farklari içeren bir set döndürür.
+symmetric_difference_update(): Bu set ile diğer set arasindaki simetrik farklari sete ekler.
+union(): Setlerin birleşimini içeren bir set döndürür.
+update(): Bu seti diğer setlerin birleşimi ile günceller.
+
